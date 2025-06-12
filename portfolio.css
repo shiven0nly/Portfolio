@@ -15,6 +15,7 @@ body {
 
 .nav {
   display: flex;
+  font-family: 'Baloo Bhaijaan 2';
   justify-content: center;
   animation: fadeslide 1.2s forwards;
 }
@@ -35,6 +36,7 @@ body {
   -webkit-backdrop-filter: blur(8px);
   z-index: 1000;
   position: fixed;
+  font-family: 'Baloo Bhaijaan 2';
 }
 
 .yo {
