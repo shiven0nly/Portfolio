@@ -7,17 +7,20 @@ h1{
     font-family: 'Baloo Bhaijaan 2';
     font-size: 3rem;
     color: rgb(18, 1, 1);
+    animation: fadeslide 0.8s forwards;
 }
 
 
 h2{
     font-size: 2rem;
     font-family: 'Baloo Bhaijaan 2';
+    animation: fadeslide 1s forwards;
 }
 
 p {
     font-family: 'Baloo 2';
     font-size: 1.4rem;
+    animation: fadeslide 1.2s forwards ;
 }
 
 .button {
@@ -30,6 +33,21 @@ p {
   font-size: 1.25em;
   cursor: pointer;
   margin-left: 70px;
+  animation: 0.6s fadeslide forwards;
+}
+
+@keyframes fadeslide{
+
+from{
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+to{
+  opacity: 1;
+  transform: translateY(0);
+}
+
 }
 
 .button span {
@@ -50,4 +68,63 @@ p {
 
 .button:hover:after {
   opacity: 1;
+}
+
+footer {
+  background: linear-gradient(to right, #130f27, #2c5364);
+  padding: 20px 30px;
+  height: 20vh;
+  width: 95vw;
+  text-align: center;
+  position: absolute;
+  top: 150vh;
+  border-radius: 30px;
+}
+
+.copyright {
+  font-family: "Baloo 2", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #00c6fb, #005bea, #ffb347);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+}
+
+.logo1{
+  position: absolute;
+  height: 3vw;
+  top: 4vw;
+  left: 43vw;
+}
+
+.instagram {
+  font-family: "Baloo Bhaijaan 2";
+  font-size: 2rem;
+  color: #d9d9d9;
+}
+
+.logo2{
+  position: absolute;
+  height: 3vw;
+  top: 8vw;
+  left: 43vw;
+}
+
+.github {
+  font-family: "Baloo Bhaijaan 2";
+  font-size: 2rem;
+  color: #d9d9d9;
+}
+
+.github:hover{
+
+  color: black;
+}
+
+.instagram:hover{
+
+  color: black;
+
 }
