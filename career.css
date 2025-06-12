@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, #fcd0de, #c4ecff, #f29191);
+}
+
+.button {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(45deg, #0ce39a, #69007f, #fc0987);
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-size: 1.25em;
+  cursor: pointer;
+  margin-left: 30px;
+  border: 1px solid rgb(225, 225, 225);
+}
+
+.button span {
+  position: relative;
+  z-index: 1;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  inset: 0px;
+  background: linear-gradient(45deg, #0ce39a, #69007f, #fc0987);
+  border-radius: 9px;
+  transition: 0.5s;
+  opacity: 0;
+  filter: blur(20px);
+}
+
+.button:hover:after {
+  opacity: 1;
+}
+
+.nav-list {
+  background-color: rgba(240, 255, 255, 0.315);
+  margin: 0;
+  padding: 7px;
+}
+
+
+h1{
+    font-family: 'Baloo Bhaijaan 2';
+    margin: 2%;
+}
+
+p{
+    font-family: 'Baloo 2';
+    margin: 3%;
+    font-size: 1.6rem;
+}

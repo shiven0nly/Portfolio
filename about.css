@@ -1,0 +1,54 @@
+body{
+    background-color: #d9d9d9;
+}
+
+
+h1{
+    font-family: 'Baloo Bhaijaan 2';
+    font-size: 3rem;
+    color: rgb(18, 1, 1);
+}
+
+
+h2{
+    font-size: 2rem;
+    font-family: 'Baloo Bhaijaan 2';
+}
+
+p {
+    font-family: 'Baloo 2';
+    font-size: 1.4rem;
+    line-height: 2vw;
+}
+
+.button {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(45deg, #0ce39a, #69007f, #fc0987);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.25em;
+  cursor: pointer;
+  margin-left: 70px;
+}
+
+.button span {
+  position: relative;
+  z-index: 1;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  inset: 0px;
+  background: linear-gradient(45deg, #0ce39a, #69007f, #fc0987);
+  border-radius: 9px;
+  transition: 0.5s;
+  opacity: 0;
+  filter: blur(20px);
+}
+
+.button:hover:after {
+  opacity: 1;
+}
