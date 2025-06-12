@@ -1,4 +1,4 @@
-# Portfolio 😎
+# Portfolio 😎 (After extracting just click on the *'portfolio.html'* file)
 
 Welcome to my personal **Portfolio Website** repository!
 
