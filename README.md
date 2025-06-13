@@ -1,4 +1,4 @@
-# Portfolio 😎 (After extracting just click on the *'portfolio.html'* file)
+![image](https://github.com/user-attachments/assets/df622c2f-fdf2-4067-911f-5673f3e4354f)# Portfolio 😎 (After extracting just click on the *'portfolio.html'* file)
 
 Welcome to my personal **Portfolio Website** repository!
 
@@ -31,4 +31,15 @@ Coming soon...
 ---
 
 Thanks for stopping by! 💻✨
+
+# Some Screenshots here 👇
+
+![image](https://github.com/user-attachments/assets/ec6c61cc-e418-40c0-a5cd-e1c401ac9ba2)
+
+---
+
+![image](https://github.com/user-attachments/assets/86908bb2-ac9d-49e9-a05b-eb8a105560db)
+
+
+
 
