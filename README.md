@@ -1,10 +1,11 @@
-![image](https://github.com/user-attachments/assets/df622c2f-fdf2-4067-911f-5673f3e4354f)# Portfolio 😎 (After extracting just click on the *'portfolio.html'* file)
+# Portfolio 😎 (After extracting just click on the *'portfolio.html'* file)
 
 Welcome to my personal **Portfolio Website** repository!
 
 This project showcases my journey as a budding developer and creative mind. It includes details about me, the projects I’ve worked on, and the skills I’m building.
 
 > ⚠️ **Note:** This portfolio is still under development. I’m actively working on improving and updating it — new sections, animations, and design tweaks are coming soon!
+> and sorry 'projects demos are 'static images' due to large size of video files it is not compatible so, but i provided the buttons, click on the button to get repo'
 
 ## 🛠️ Built With
 
