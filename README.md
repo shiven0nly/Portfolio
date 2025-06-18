@@ -37,7 +37,8 @@ Thanks for stopping by! 💻✨
 
 ---
 
-![image](https://github.com/user-attachments/assets/86908bb2-ac9d-49e9-a05b-eb8a105560db)
+![image](https://github.com/user-attachments/assets/57eb2319-19b1-41c1-9791-f9116ab86b28)
+
 
 
 
